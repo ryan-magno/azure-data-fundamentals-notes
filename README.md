@@ -43,9 +43,7 @@ IaaS enables businesses and developers to rent virtualized computing resources o
     ### Structured Data
     
     - data that adheres to a fixed *schema*, so all of the data has the same fields or properties.
-    - commonly, schema for structured data is tabular:
-    
-    ![field-record-value.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/581864de-d26b-4d58-8208-4a0f112c12b2/e52d73cc-3b34-47d5-a63e-9b0c0b29e553/field-record-value.png)
+    - commonly, schema for structured data is tabular
     
     ### Semi-structured Data
     
@@ -267,8 +265,6 @@ IaaS enables businesses and developers to rent virtualized computing resources o
     
     ### Relational Databases
     
-    ![relational-database.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/581864de-d26b-4d58-8208-4a0f112c12b2/fd023dec-2068-4929-ad93-042aca5db652/relational-database.png)
-    
     - Relational databases store and query structured data.
     - Data is organized into tables representing entities like customers, products, or sales orders.
     - Each entity instance is assigned a primary key for unique identification.
@@ -287,27 +283,19 @@ IaaS enables businesses and developers to rent virtualized computing resources o
     
     - Key-value databases
         - key-value pairs
-    
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/581864de-d26b-4d58-8208-4a0f112c12b2/c6da74af-303f-4978-82c7-620ad412a307/Untitled.png)
-    
+        
     ### Document
     
     - Key-value pair but the value is a JSON
-    
-    ![document-store.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/581864de-d26b-4d58-8208-4a0f112c12b2/f46979d2-bc87-416c-a055-28afef6f7e16/document-store.png)
-    
+        
     ### Column family
     
     - Like a regular tabular database but you can divide the columns into groups known as column-families. Each column family holds a set of columns that are logically related together.
-    
-    ![column-family-store.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/581864de-d26b-4d58-8208-4a0f112c12b2/1af3aea5-d0ea-40b4-95b6-aa1ea41997a7/column-family-store.png)
-    
+        
     ### Graph
     
     - store entities as nodes with links to define relationships between them.
-    
-    ![graph.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/581864de-d26b-4d58-8208-4a0f112c12b2/f2332632-9c0f-4f90-b2a7-301992a57bbb/graph.png)
-    
+        
     ## Transactional Data Processing
     
     A transactional data processing system records and tracks specific events in a business, like financial transactions or sales. It handles large volumes of data quickly and is crucial for businesses to operate smoothly. This type of system is known as Online Transactional Processing (OLTP).
@@ -381,7 +369,3 @@ A governance service that helps organizations manage and govern their on-premise
 ### Microsoft Fabric
 ![Microsoft Fabric](https://learn.microsoft.com/en-us/training/wwl-data-ai/explore-roles-responsibilities-world-of-data/media/fabric-icon.png)
 A comprehensive analytics platform that integrates data management, data governance, and advanced analytics into a unified SaaS solution.
-
----
-
-This README provides a high-level overview of the various Azure Data Services available to support scalable and efficient data solutions in the cloud. Each service is designed to meet specific data needs, from real-time processing to massive data warehousing, ensuring that organizations can leverage their data effectively and efficiently.
