@@ -1,6 +1,24 @@
 # azure-data-fundamentals-notes
 This directory provides a high-level overview of the various Azure Data Services available to support scalable and efficient data solutions in the cloud. Each service is designed to meet specific data needs, from real-time processing to massive data warehousing, ensuring that organizations can leverage their data effectively and efficiently.
 
+# Core Cloud Concepts
+
+## PaaS (Platform as a Service)
+
+In a PaaS environment like Microsoft Azure, the cloud provider offers a platform that includes both software and hardware infrastructure necessary for application development and deployment. This setup enables clients to focus on creating and managing their applications and services without concerning themselves with the underlying operating system, server hardware, or network infrastructure.
+
+## SaaS (Software as a Service)
+
+SaaS delivers software applications as a service over the internet. It's the most comprehensive form of cloud service, providing complete applications on demand. A third-party manages all aspects of the application environment, including the underlying infrastructure, middleware, application software, and application data.
+
+**Examples in Azure:**
+- **Microsoft 365 (formerly Office 365):** A cloud-based office suite offering services like email (Exchange), file storage (OneDrive), and productivity applications (Word, Excel, PowerPoint, etc.).
+- **Dynamics 365:** A suite of enterprise resource planning (ERP) and customer relationship management (CRM) applications.
+
+## IaaS (Infrastructure as a Service)
+
+IaaS enables businesses and developers to rent virtualized computing resources over the internet, including servers, storage, and networking hardware. This service model provides a high degree of control and flexibility over the computing environment, akin to managing physical hardware, compared to PaaS and SaaS.
+
 # Azure Data Services
 
 ## Introduction
